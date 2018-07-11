@@ -183,3 +183,52 @@ header {
 .main-nav li a:hover, .main-nav li a:active {
   border-bottom: 2px solid #e67322;
 }
+
+/* ------------------- */
+/* features section      */
+/* ------------------- */
+
+.section-features .long-copy {
+  margin-bottom: 40px;
+}
+
+
+/* ------------------- */
+/* meals section      */
+/* ------------------- */
+
+.section-meals {
+  padding: 0;
+}
+
+.meals-showcase {
+  list-style: none;
+  width: 100%;
+}
+
+.meals-showcase li {
+  display: block;
+  float: left;
+  width: 25%;
+}
+
+.meal-photo {
+  width: 100%;
+  margin: 0;
+  overflow: hidden;
+  background-color: #000;
+}
+
+.meal-photo img {
+  width: 100%;
+  height: auto;
+  transform: scale(1.15);
+  transition: transform 0.5s opacity 0.5s;
+  opacity: 0.7;
+}
+
+.meal-photo img:hover {
+  opacity: 1;
+  transform: scale(1.03);
+
+}

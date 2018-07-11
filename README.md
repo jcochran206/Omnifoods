@@ -1,6 +1,6 @@
 # Omnifoods Home Delivery Service
 ## Description
-Omnifoods is a food delivery service website.  Premium food delivered to your door.  After you get a taste of this food you will never go for fast food again.  This project a responsive website that showcases a fictional food delivery service.  It is a clean modern design that response to various devices.  
+Omnifoods is a food delivery service website.  Premium food delivered to your door.  After you get a taste of this food you will never go for fast food again.  This project is a responsive website that showcases a fictional food delivery service.  It is a clean modern design that response to various devices.  
 ## technologies used
 - HTML
 - CSS

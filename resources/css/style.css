@@ -96,7 +96,7 @@ h3 {
 }
 
 /* ICONS */
-ion-icon {
+.icon-big {
   font-size: 300%;
   display: block;
   color: #e67322;
@@ -104,6 +104,16 @@ ion-icon {
   margin-left: auto;
   margin-right: auto;
   margin-top: 20px;
+}
+
+.icon-sm {
+  display: block;
+  width: 30px;
+  text-align: center;
+  color: #e67322;
+  font-size: 120%;
+  line-height: 120%;
+  vertical-align: middle;
 }
 
 /* buttons */
@@ -295,3 +305,22 @@ header {
   width: auto;
   margin-right: .5rem;
 }
+
+/* ------------------- */
+/* cities section      */
+/* ------------------- */
+
+.box img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 15px;
+}
+
+.city-feature {
+  margin-bottom: 5px;
+  display: flex;
+}
+.city-feature p {
+  font-size: 90%;
+}
+.

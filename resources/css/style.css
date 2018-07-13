@@ -107,13 +107,31 @@ h3 {
 }
 
 .icon-sm {
-  display: block;
+  display: inline-block;
   width: 30px;
   text-align: center;
   color: #e67322;
   font-size: 120%;
+  margin-right: 5px;
+  /* secrets to align icons */
   line-height: 120%;
   vertical-align: middle;
+  margin-top: -2px;
+}
+
+/* links */
+
+a:link,a:visited {
+  color: #e67322;
+  text-decoration: none;
+  border-bottom: 1px solid #e67322;
+  padding-bottom: 1px;
+}
+
+a:hover, a:active {
+  color: #555;
+  border-bottom: 1px solid transparent;
+  transition: color 0.2s, border-bottom 0.2s;
 }
 
 /* buttons */
@@ -306,6 +324,10 @@ header {
   margin-right: .5rem;
 }
 
+.btn-app:link, btn-app:visited {
+  border: 0;
+}
+
 /* ------------------- */
 /* cities section      */
 /* ------------------- */
@@ -318,9 +340,5 @@ header {
 
 .city-feature {
   margin-bottom: 5px;
-  display: flex;
+
 }
-.city-feature p {
-  font-size: 90%;
-}
-.

@@ -540,7 +540,7 @@ footer {
 }
 
 .instagram:hover {
-  color: #517fa4
+  color: #517fa4;
 }
 
 footer p{
@@ -548,5 +548,3 @@ footer p{
   text-align: center;
   margin-top: 20px;
 }
-
-.social-links li

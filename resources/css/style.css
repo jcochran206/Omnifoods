@@ -196,9 +196,18 @@ header {
   height: 5rem;
   width: auto;
   float: left;
-  margin-top: 1rem;
+  margin: 1rem 0;
 }
 
+.logo-black {
+  display: none;
+  height: 2.5rem;
+  width: auto;
+  float: left;
+  margin-top: .25rem;
+}
+
+/* main nav */
 .main-nav {
   float: right;
   list-style: none;
@@ -223,6 +232,30 @@ header {
 .main-nav li a:hover, .main-nav li a:active {
   border-bottom: 2px solid #e67322;
 }
+
+/* nav sticky */
+.sticky {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  background-color: rgba(255, 255, 255, 0.90);
+  box-shadow: 0 2px 2px #fefefe;
+  z-index: 9999;
+}
+
+.main-nav {
+  margin-top: 1rem;
+}
+
+.sticky .main-nav li a:link,
+.sticky .main-nav li a:visited {
+  padding: 15px 0;
+  color: #555;
+}
+
+.sticky .logo {display: none;;}
+.sticky .logo-black { display: block;}
 
 /* ------------------- */
 /* features section      */

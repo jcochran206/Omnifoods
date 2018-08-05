@@ -233,6 +233,17 @@ header {
   border-bottom: 2px solid #e67322;
 }
 
+/* mobiel nav*/
+.mobile-nav-icon {
+  float: right;
+  margin-top: 3px;
+  cursor: pointer;
+  display: none;
+}
+
+/* sizing */
+
+
 /* nav sticky */
 .sticky {
   position: fixed;
@@ -254,7 +265,7 @@ header {
   color: #555;
 }
 
-.sticky .logo {display: none;;}
+.sticky .logo {display: none;}
 .sticky .logo-black { display: block;}
 
 /* ------------------- */

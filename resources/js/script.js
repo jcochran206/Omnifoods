@@ -42,5 +42,22 @@ $('.js--wp-4').waypoint(function(direction){
     offset: '50%'
 });
 
+/* Mobile navigation */
+$('.js--nav-icon').click(function(){
+  var nav = $('.js--main-nav');
+  var icon = $('.js--nav-icon ion-icon');
+
+  nav.slideToggle(200);
+  /*
+  if (icon.hasClass("icon-big")) {
+    icon.setAttribute("name" , "close-circle-outline");
+    icon.removeAttribute("name", "reorder");
+  }else {
+    icon.setAttribute("name" , "reorder");
+    icon.removeAttribute("name", "close-circle-outline");
+  }*/
+
+  });
+
 
 });
